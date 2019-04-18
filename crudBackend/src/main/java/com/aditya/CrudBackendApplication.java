@@ -16,6 +16,7 @@ public class CrudBackendApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CrudBackendApplication.class, args);
+		System.out.println("hjsdkfjk");
 	}
 
 	@Override
