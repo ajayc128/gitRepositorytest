@@ -1,0 +1,23 @@
+<div class="container">
+<table>
+
+<thead>
+<th> ID</th>
+<th> Name</th>
+<th> Operations</th>
+</thead>
+
+<tbody>
+  <tr *ngFor="let user of users">
+   <td>{{user.id}}</td>
+   <td>{{user.name}}</td>
+   <td><button>Delete</button></td>
+   <td><button>Edit</button></td>
+  </tr>
+</tbody>
+
+</table>
+
+<td><button>New User</button></td>
+
+</div>
